@@ -1,20 +1,15 @@
 #include<stdio.h>
 /**
  * main - A print types
- * Return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float f;
 
-printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
-printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(b));
-printf("Size of long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
-printf("Size of a long long int: %lu bytes(s)\n", (unsigned long)sizeof(d));
-printf("Size of a float: %lu bytes(s)\n", (unsigned long)sizeof(f));
+printf("Size of a char: %d byte(s)\n", sizeof(char));
+printf("Size of a int: %d byte(s)\n", sizeof(int));
+printf("Size of long int: %d bytes(s)\n", sizeof(long int));
+printf("Size of a long long int: %ld bytes(s)\n", sizeof(long long int));
+printf("Size of a float: %d bytes(s)\n", sizeof(float));
 return (0);
 }
