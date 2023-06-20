@@ -2,8 +2,7 @@
 
 
 /**
- * Main - Entry point
- * 
+ * main - Entry point of my putchar code,
  * Return: Always 0
  */
 
