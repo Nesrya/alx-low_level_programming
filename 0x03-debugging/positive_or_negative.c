@@ -2,6 +2,7 @@
 
 /**
  * positive_or_negative - shows if a number is positive or negative
+ * @i: the number
 (* 0 : is the number to be chacked
  *Return: 0 success
  */
